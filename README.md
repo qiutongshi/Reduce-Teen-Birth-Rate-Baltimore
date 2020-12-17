@@ -17,7 +17,8 @@ This is an urgent problem that needs to be addressed as soon as possible because
 
 ### Racial factors in teen birth
 [Several articles and studies](https://www.npr.org/2014/04/14/302906835/why-do-more-latina-teens-get-pregnant.) found that Latinas have one of the highest teen pregnancy rates in the United States. 
-<img width="688" alt="Screen Shot 2020-12-17 at 17 32 26" src="https://user-images.githubusercontent.com/70663111/102551638-d602b480-408d-11eb-8f5d-7c4d9df2c944.png">
+<img width="688" alt="Screen Shot 2020-12-17 at 17 32 26" src="https://user-images.githubusercontent.com/70663111/102551638-d602b480-408d-11eb-8f5d-7c4d9df2c944.png">  
+
 The bar chart shown above is from [data analysis](https://www.cdc.gov/teenpregnancy/about/index.htm#:~:text=In%202017%2C%20the%20birth%20rates,highest%20among%20all%20race%2Fethnicities.) conducted by the Centers for Disease Control (CDC, Figure 1). Due to their high teen pregnancy rates, Hispanic females also have one of the highest teen birth rates in the United States. Black, American Indian/Alaska Native (AIAN), and Native Hawaiian/Other Pacific Islander (NHOPI) also have very high teen birth rates that exceed the rate of all races and origins. [Another study](https://pubmed.ncbi.nlm.nih.gov/23450881/.) found that socioeconomic conditions, such as living under the poverty line, could contribute to high teen birth rates. 
 
 Baltimore City has more people living under the poverty line [(21.8%)](https://datausa.io/profile/geo/baltimore-city-md#:~:text=21.8%25%20of%20the%20population%20for,and%20then%20Females%2055%20%2D%2064.) than the national average (13.1%), with the largest demographic group living in poverty being females. Baltimore City is also [largely made up of racial minorities](https://datausa.io/profile/geo/baltimore-md/#:~:text=The%205%20largest%20ethnic%20groups,%2DHispanic.). Since [prior research](https://urbanhealth.jhu.edu/_archive/2019/_downloads/reducing_teen_births_execsumm.pdf.) on teen birth rates was generally focused on analyzing general or African American populations, we wanted to focus our data analysis on low income, Hispanic, AIAN, and NHOPI populations to see if the aforementioned national trends persist in Baltimore City. We wanted to analyze if racial demographics and socioeconomic status could contribute to the teen birth rate in Baltimore City to answer our business question: how can the Baltimore City Health Department reduce teen birth rates in Baltimore City?
@@ -31,44 +32,67 @@ The Healthy Teens and Young Adults' (HTYA) mission is to reduce unintended pregn
 
 
 ## Business Question
-How do educational characteristics differ by race in the U.S.? How can these differences inform potential policy action regarding the US educational system? 
+How to decrease teen birth rate in Baltimore more efficiently? 
 
 ## Data Question
-What are the similarities and differences between racial disparities in education between Florida, California, Pennsylvania, and Illinois, and what are the possible reasons behind these disparities? 
+What are the factors impacting teen birth rate in Baltimore, and how do they weight differently? Waht are the features of different representitive groups in Baltimore?
 
 ## Data Metrics
-- Academic performance by race: 
-  - Average test scores: Average test scores are influenced by opportunities to learn at home, in the neighborhood, during child-care, at preschool and after-school programs, from classmates and friends, and at -most obviously- school.
-    - SAT and AP test scores
-  - Chronic Absenteeism: Students who are chronically absent means that they miss at least 15 days of school in a year. Chronic absences affects student achievement, as well as student attitude and behavior at school. An increase in absences increases the risk of dropping out of school.
-  - High-school graduation rates by race: a less specific yet helpful indicator of general educational performance outcome of students by race
-- Population distribution across race in the four states: a basic description of racial divergence in the states, might differ in terms of their impacts on racial disparities
+- Teen birth rate  
+- Home below poverty line rate
+  - Can be a general indicator of family income level, but not a precise one because it does not reflect range, standard deviation etc.
+- Hispanic residence rate
+  - The total number of persons that identify their ethnicity as being Hispanic or Latino out of the total number of persons living in an area. 
+- NHOPI & AIAN residence rate
+  - The total number of persons that identify themselves as being of either American Indian, Alaskan Native, Native Hawaiian or Other Pacific Islander, or some other race (non-Hispanic) out of the total number of persons living in an area. 
 
 
 ## Data Sources
-- High School Graduation Rates: Taken from various state websites with available data, 2017/18 school year
-  - [CA](https://www.kidsdata.org/topic/755/graduates-race/table#fmt=1154&loc=2,127,347,1763,331,348,336,171,321,345,357,332,324,369,358,362,360,337,327,364,356,217,353,328,354,323,352,320,339,334,365,343,330,367,344,355,366,368,265,349,361,4,273,59,370,326,333,322,341,338,350,342,329,325,359,351,363,340,335&tf=130&ch=7,11,726,85,10,72,9,73)
-  - [FL](http://www.fldoe.org/core/fileparse.php/7584/urlt/GradRates1718.pdf)
-  - [IL](https://www.illinoisreportcard.com/state.aspx?source=trends&source2=graduationrate&Stateid=IL)
-  - [PA](https://github.com/vickidecastro/racial-disparities-education-US/blob/main/2017-2018%20Pennsylvania%204-Year%20Cohort%20Graduation%20Rates%20(1).xlsx)
+Vital Signs Open Data: This is a collection of publically available data on Baltimore City neighborhoods to paint a picture of each neighborhood's quality of life and overall health. It includes information and datasets on census demographics, housing and community development, children and family health, crime and safety, workforce and economic development, arts and culture, education and youth, and sustainability. Data from 2015-2018 were used in this project.
+1. [Teen Birth Rate per 1,000 Females (aged 15-19)](https://vital-signs-bniajfi.hub.arcgis.com/datasets/2d91057e9a1642e19bfab911cb755672_0.) - This dataset shows the rate of female teens aged 15-19 that gave birth per 1,000 females aged 15-19 in each Baltimore City neighborhood.
+2. [Percent of Family Households Living Below the Poverty Line](https://vital-signs-bniajfi.hub.arcgis.com/datasets/74337e706ee94cd8a8b8272564497946_0.) - This dataset shows the percentage of households living below the poverty line in each Baltimore City neighborhood.
+3. [Percent of Residents - All Other Races (Hawaiian/ Pacific Islander, Alaskan/ Native American Other Race) (Non-Hispanic)](https://vital-signs-bniajfi.hub.arcgis.com/datasets/percent-of-residents-all-other-races-hawaiian-pacific-islander-alaskan-native-american-other-race-non-hispanic.) - This dataset shows the percentage of residents who identify their ethnicity as Hawaiian/Pacific Islander or Alaskan/Native American in each Baltimore City neighborhood.
+4. [Percent of Residents - Hispanic](https://vital-signs-bniajfi.hub.arcgis.com/datasets/percent-of-residents-hispanic-1) - This dataset shows the percentage of residents who identify their ethnicity as Hispanic in each Baltimore City neighborhood.
 
-- SAT Scores by Race: Taken from College Board open data, 2017/18 school year
-  - [CA](https://github.com/vickidecastro/racial-disparities-education-US/blob/main/2018-california-sat-suite-of-assessments-annual-report.pdf)
-  - [FL](https://github.com/vickidecastro/racial-disparities-education-US/blob/main/2018-florida-sat-suite-of-assessments-annual-report.pdf)
-  - [IL](https://github.com/vickidecastro/racial-disparities-education-US/blob/main/2018-illinois-sat-suite-of-assessments-annual-report.pdf)
-  - [PA](https://github.com/vickidecastro/racial-disparities-education-US/blob/main/2017-2018%20Pennsylvania%204-Year%20Cohort%20Graduation%20Rates%20(1).xlsx)
-  
-- AP Scores by Race: Taken from College Board open data, 2017/18 school year
-  - [CA](https://github.com/vickidecastro/racial-disparities-education-US/blob/main/california-summary-2018.xlsx)
-  - [FL](https://github.com/vickidecastro/racial-disparities-education-US/blob/main/florida-summary-2018.xlsx)
-  - [IL](https://github.com/vickidecastro/racial-disparities-education-US/blob/main/2018-illinois-sat-suite-of-assessments-annual-report.pdf)
-  - [PA](https://github.com/vickidecastro/racial-disparities-education-US/blob/main/pennsylvania-summary-2018.xlsx)
-  
-- [Chronic Absenteeism](https://github.com/vickidecastro/racial-disparities-education-US/blob/main/Chronic-Absenteeism%20(1).xlsx): Taken from Civil Rights Data Collection open data source, 2013/14 school year estimates
+
   
  
 ## Data Analysis
-We decided to do a three-cluster analysis for each state using high school graduation rate, average SAT test score, average AP test score, and percentage of chronically absent students by race (7 races). We used these variables as we could access them across states, CB data is consistent, and because they are common indicators of educational performance across the board. 
+### Initial Findings  
+<img width="673" alt="Screen Shot 2020-12-17 at 17 53 37" src="https://user-images.githubusercontent.com/70663111/102553410-cb95ea00-4090-11eb-8cc3-276127f86eb3.png">   
+
+The figure above reinforces our background research for our problem statement. In the past four years, teen birth rate has been declining in every region of Baltimore City. Notably, the Northwest region of Baltimore City experienced a -83.5% decline in teen birth rates over 2015-2018. However, this bar chart also shows the dichotomy of percent change between the regions. Not every region was as successful as the Northwest region in reducing teen birth rate. For example, the Southeast region experienced the least percent change decline in those years. Although teen birth rates have been declining due to the initiatives in place, there is room for improvement.
+
+
+### Linear Regression
+<img width="564" alt="Screen Shot 2020-12-17 at 17 54 25" src="https://user-images.githubusercontent.com/70663111/102553481-e7998b80-4090-11eb-88b1-1004f9b96813.png">   
+
+The equation indicated by the linear regression analysis summary is: 
+<img width="564" alt="Screen Shot 2020-12-17 at 17 55 23" src="https://user-images.githubusercontent.com/70663111/102553561-0ac43b00-4091-11eb-8da3-1ca54241f4c5.png">
+
+This suggests that as the percentage of families living under the poverty line, percentage of AIAN or NHOPI populations, and percentage of Hispanic population increase, so does teen birth rate. In the figure above, you can easily see that all three factors are positively correlated with teen birth rate (Figure 4). The percentage of Hispanic population has an especially high correlation coefficient, which indicates that it is doing a better job of explaining the outcome and has a greater effect on teen birth rate compared to the other two factors.
+
+<img width="675" alt="Screen Shot 2020-12-17 at 17 55 59" src="https://user-images.githubusercontent.com/70663111/102553613-1fa0ce80-4091-11eb-8331-0ef5aa03592d.png">
+
+The R-squared value is 0.4854415, which means that about 48.5% of the data can be predicted with the model. The regression model also had a low F-significance value of 1.7994E-07, which indicates that these factors matter for the end model. All factors also have p-values of less than 0.05, which means that they are significant in predicting the outcome (Table 1).
+
+
+### Cluster Analysis
+<img width="632" alt="Screen Shot 2020-12-17 at 17 56 48" src="https://user-images.githubusercontent.com/70663111/102553681-3d6e3380-4091-11eb-8446-a6fd2551d415.png">
+
+This suggests that each of the three different cluster groups anchored as 1, 2, and 3 is represented by Greenmount East, Northwood, Brooklyn/Curtis Bay/ Hawkins. Group 1 has a slightly lower than average teen birth rate, a much higher than average home below poverty line rate, a much lower percent of Hispanic or H&AIAN&NHOPI  minority residence rate. Group 2 has an extremely lower than average teen birth rate, an extremely less than average home below poverty line rate, a less than average residence of Hispanic or Asian or H&AIAN&NHOPI minority. Group 3 has an extremely high teen birth rate, a high less than average home below poverty line rate, and a lot more residents of Hispanic and H&AIAN&NHOPI  minorities. 
+
+<img width="583" alt="Screen Shot 2020-12-17 at 17 57 09" src="https://user-images.githubusercontent.com/70663111/102553702-4959f580-4091-11eb-927b-2b308b5d6b9c.png">
+
+<img width="630" alt="Screen Shot 2020-12-17 at 17 57 32" src="https://user-images.githubusercontent.com/70663111/102553734-57a81180-4091-11eb-8e9b-a99ba262e718.png">
+<img width="704" alt="Screen Shot 2020-12-17 at 17 58 35" src="https://user-images.githubusercontent.com/70663111/102553825-7d351b00-4091-11eb-90b8-daf78404965f.png">
+
+
+
+
+
+
+
 
 ### California
 - Cluster 1: Multiracial: avg hs grad, high mean SAT, low/avg chronic abs, high mean AP
