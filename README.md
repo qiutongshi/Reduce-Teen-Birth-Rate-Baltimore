@@ -1,10 +1,10 @@
 # Reduce-TeenBirthRate-Baltimore-
 ## Introduction
-Teen pregnancies carry extra risks to both the mother and the baby. Baltimore city has a teen birth rate twice as high as the state of Maryland and three times as high as the national average. This project uses linear regression and cluster analysis to explore the racial and economical factors contributing to teen birth rate in Baltimore, hopefully giving an insight into the services and initiatives to reduce the rate.  
+Teen pregnancies carry extra risks to both the mother and the baby. There are also societal, economic, and generational consequences to teen births. Baltimore city has a teen birth rate twice as high as the state of Maryland and the national average. This project uses linear regression and cluster analysis to explore the racial and economic factors contributing to teen birth rate in Baltimore, hopefully giving an insight into how initiatives can be improved to reduce the rate. 
 
-While cluster analysis groups teenage birth rate with its distinct corresponding minority residence rate, linear regression also shows that racial factors can contribute greatly to teenage birth rate. After the data analysis, we believe that current initiatives that include education, prevention and follow-up need to be more targeted to counties where Hispanic, AIAN and NHOPI residence rate is higher. 	
-
-Further studies on how to improve the education, prevention and follow-up cautions on teenage pregnancy are needed to better solve the identified problem at several measures such as campaigns and community resources can be more precisely targeted at high-risk groups.
+Cluster analysis groups show that teen birth rate occurs in areas with higher minorities and lower income. Linear regression also shows that racial factors can contribute greatly to teenage birth rate. After the data analysis, we believe that current initiatives that include education, prevention, and follow-up need to be more targeted to neighborhoods where Hispanic, AIAN and NHOPI residence rate is higher. 
+  
+Further studies on additional factors that contribute to teen birth rate and how to improve the education, prevention, and follow-up cautions on teenage pregnancy are needed to solve the identified problem at several measures such as campaigns and community resources can be more precisely targeted at high-risk groups.
 
 ## Background
 According to the [Baltimore City Health Department](https://health.baltimorecity.gov/node/170.), Baltimore City has an average teen birth rate of 43.4 out of 1,000 teenage females (ages 15-19). This rate is about twice as high as the national average (26.5 out of 1,000). Although this rate has been steadily declining over the past decade, there is more that can and should be done.
@@ -12,8 +12,6 @@ According to the [Baltimore City Health Department](https://health.baltimorecity
 Teen birth is a serious social and economic problem. [According to one study](https://www.childtrends.org/wp-content/uploads/2010/01/child_trends-2010_01_22_FS_diplomaattainment.pdf.), teen pregnancies and births are a significant contributor to dropping out of school. Females who dropout of school face social stigma, fewer job opportunities, lower salaries, and a [higher probability of criminal activity](https://www.doe.mass.edu/dropout/overview.html?section=consequences#:~:text=Dropping%20out%20of%20school%20has,with%20the%20criminal%20justice%20system.). There is also a social ripple effect. Like their mothers, [children of teen births](http://webarchive.urban.org/publications/901199.html#:~:text=Teenage%20motherhood%20costs%20taxpayers%20about,teenage%20parents%20and%20their%20children.) are more likely to achieve lower education, be incarcerated, experience teen pregnancy, and have difficulty finding employment. Due to the socioeconomic status of their teen mother, they are also more likely to have health problems.
 
 This is an urgent problem that needs to be addressed as soon as possible because of the significant short- and long-term consequences. If teen pregnancy is not addressed, our society could be looking at generations of families impacted by the aforementioned social repercussions. These effects impact teen families and the larger community’s functionality, efficiency, and productivity.
-
-
 
 ### Racial factors in teen birth
 [Several articles and studies](https://www.npr.org/2014/04/14/302906835/why-do-more-latina-teens-get-pregnant.) found that Latinas have one of the highest teen pregnancy rates in the United States. 
@@ -24,26 +22,27 @@ The bar chart shown above is from [data analysis](https://www.cdc.gov/teenpregna
 Baltimore City has more people living under the poverty line [(21.8%)](https://datausa.io/profile/geo/baltimore-city-md#:~:text=21.8%25%20of%20the%20population%20for,and%20then%20Females%2055%20%2D%2064.) than the national average (13.1%), with the largest demographic group living in poverty being females. Baltimore City is also [largely made up of racial minorities](https://datausa.io/profile/geo/baltimore-md/#:~:text=The%205%20largest%20ethnic%20groups,%2DHispanic.). Since [prior research](https://urbanhealth.jhu.edu/_archive/2019/_downloads/reducing_teen_births_execsumm.pdf.) on teen birth rates was generally focused on analyzing general or African American populations, we wanted to focus our data analysis on low income, Hispanic, AIAN, and NHOPI populations to see if the aforementioned national trends persist in Baltimore City. We wanted to analyze if racial demographics and socioeconomic status could contribute to the teen birth rate in Baltimore City to answer our business question: how can the Baltimore City Health Department reduce teen birth rates in Baltimore City?
 
 ### Current Initiatives  
-- Teen Pregnancy Prevention Initiative (TPPI)
+- [Teen Pregnancy Prevention Initiative (TPPI)](https://youth.gov/evidence-innovation/investing-evidence/teen-pregnancy-prevention-initiative)
+This is a program that was originally launched by the Department of Health and Human Services (HHS) in 2010 to reduce teen birth rates across the nation. This is an evidence-based program used in cities across the nation that has been shown to be effective in reducing teen birth rates.
 As part of the [B'more for Healthy Babies programs](https://www.healthybabiesbaltimore.com.), Baltimore City has instituted the Teen Pregnancy Prevention Initiative (TPPI) to reduce teen births. TPPI has four key strategies: a Teen Pregnancy Prevention Task Force, Provider Engagement and Outreach, Youth Advisory Council, and a Social Marketing Campaign. 
 
-- Healthy Teens & Young Adults (HTYA)  
+- [Healthy Teens & Young Adults (HTYA)](https://health.baltimorecity.gov/node/223)
 The Healthy Teens and Young Adults' (HTYA) mission is to reduce unintended pregnancies and to improve pregnancy outcomes by providing reproductive health services to young women and men 10 - 24 years of age.  Services also available include: Contraception (birth control) including IUDs and subdermal implant (Nexplanon). This program serves as an indirect sub program to reduce teenage birth rate.
 
 
 ## Business Question
-How to decrease teen birth rate in Baltimore more efficiently? 
+How can we reduce teen birth rates in Baltimore City?
 
 ## Data Question
 What are the factors impacting teen birth rate in Baltimore, and how do they weight differently? Waht are the features of different representitive groups in Baltimore?
 
 ## Data Metrics
 - Teen birth rate  
-- Home below poverty line rate
+- % of families living below the poverty line per neighborhood
   - Can be a general indicator of family income level, but not a precise one because it does not reflect range, standard deviation etc.
-- Hispanic residence rate
+- % of Hispanics per neighborhood
   - The total number of persons that identify their ethnicity as being Hispanic or Latino out of the total number of persons living in an area. 
-- NHOPI & AIAN residence rate
+- % of NHOPI & AIAN per neighborhood
   - The total number of persons that identify themselves as being of either American Indian, Alaskan Native, Native Hawaiian or Other Pacific Islander, or some other race (non-Hispanic) out of the total number of persons living in an area. 
 
 
@@ -54,9 +53,6 @@ Vital Signs Open Data: This is a collection of publically available data on Balt
 3. [Percent of Residents - All Other Races (Hawaiian/ Pacific Islander, Alaskan/ Native American Other Race) (Non-Hispanic)](https://vital-signs-bniajfi.hub.arcgis.com/datasets/percent-of-residents-all-other-races-hawaiian-pacific-islander-alaskan-native-american-other-race-non-hispanic.) - This dataset shows the percentage of residents who identify their ethnicity as Hawaiian/Pacific Islander or Alaskan/Native American in each Baltimore City neighborhood.
 4. [Percent of Residents - Hispanic](https://vital-signs-bniajfi.hub.arcgis.com/datasets/percent-of-residents-hispanic-1) - This dataset shows the percentage of residents who identify their ethnicity as Hispanic in each Baltimore City neighborhood.
 
-
-  
- 
 ## Data Analysis
 ### Initial Findings  
 <img width="673" alt="Screen Shot 2020-12-17 at 17 53 37" src="https://user-images.githubusercontent.com/70663111/102553410-cb95ea00-4090-11eb-8cc3-276127f86eb3.png">   
