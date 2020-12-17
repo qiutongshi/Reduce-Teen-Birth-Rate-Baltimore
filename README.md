@@ -17,36 +17,17 @@ This is an urgent problem that needs to be addressed as soon as possible because
 
 ### Racial factors in teen birth
 [Several articles and studies](https://www.npr.org/2014/04/14/302906835/why-do-more-latina-teens-get-pregnant.) found that Latinas have one of the highest teen pregnancy rates in the United States. 
+<img width="688" alt="Screen Shot 2020-12-17 at 17 32 26" src="https://user-images.githubusercontent.com/70663111/102551638-d602b480-408d-11eb-8f5d-7c4d9df2c944.png">
+The bar chart shown above is from [data analysis](https://www.cdc.gov/teenpregnancy/about/index.htm#:~:text=In%202017%2C%20the%20birth%20rates,highest%20among%20all%20race%2Fethnicities.) conducted by the Centers for Disease Control (CDC, Figure 1). Due to their high teen pregnancy rates, Hispanic females also have one of the highest teen birth rates in the United States. Black, American Indian/Alaska Native (AIAN), and Native Hawaiian/Other Pacific Islander (NHOPI) also have very high teen birth rates that exceed the rate of all races and origins. [Another study](https://pubmed.ncbi.nlm.nih.gov/23450881/.) found that socioeconomic conditions, such as living under the poverty line, could contribute to high teen birth rates. 
 
-    
-- [FL](https://data.census.gov/cedsci/table?q=B03002&g=0400000US12&y=2018&tid=ACSDT1Y2018.B03002&hidePreview=true)
-  - Racial breakdown: 
-    - White: 53.26%
-    - Hispanic: 26.12%
-    - Black/African American: 15.27%
-    - Asian: 2.72%
-    - Multiracial: 2%
-    - American Indian/Alaska Native: <1% 
-    - Native Hawaiian/Other Pacific Islander: <1%
+Baltimore City has more people living under the poverty line [(21.8%)](https://datausa.io/profile/geo/baltimore-city-md#:~:text=21.8%25%20of%20the%20population%20for,and%20then%20Females%2055%20%2D%2064.) than the national average (13.1%), with the largest demographic group living in poverty being females. Baltimore City is also [largely made up of racial minorities](https://datausa.io/profile/geo/baltimore-md/#:~:text=The%205%20largest%20ethnic%20groups,%2DHispanic.). Since [prior research](https://urbanhealth.jhu.edu/_archive/2019/_downloads/reducing_teen_births_execsumm.pdf.) on teen birth rates was generally focused on analyzing general or African American populations, we wanted to focus our data analysis on low income, Hispanic, AIAN, and NHOPI populations to see if the aforementioned national trends persist in Baltimore City. We wanted to analyze if racial demographics and socioeconomic status could contribute to the teen birth rate in Baltimore City to answer our business question: how can the Baltimore City Health Department reduce teen birth rates in Baltimore City?
 
-- [IL](https://datausa.io/profile/geo/illinois#demographics)
-  - Racial breakdown: 
-    - White: 60.9%
-    - Black/African American: 13.9%
-    - Hispanic: 16.2%
-    - Asian: 5.59%
-    - Multiracial: 2.68%
-    - American Indian/Alaska Native: <1%
-    - Native Hawaiian/ Other Pacific Islander: <1%
-- [PA](https://www.census.gov/quickfacts/fact/table/PA/PST045219)
-  - Racial Breakdown: 
-    - White: 75.7%
-    - Black/African American: 12%
-    - Hispanic/Latino: 7.8%
-    - Asian: 3.8%
-    - Multiracial: 2.1%
-    - American Indian/Alaska Native: <1%
-    - Native Hawaiian/Other Pacific Islander: <1%
+### Current Initiatives  
+- Teen Pregnancy Prevention Initiative (TPPI)
+As part of the [B'more for Healthy Babies programs](https://www.healthybabiesbaltimore.com.), Baltimore City has instituted the Teen Pregnancy Prevention Initiative (TPPI) to reduce teen births. TPPI has four key strategies: a Teen Pregnancy Prevention Task Force, Provider Engagement and Outreach, Youth Advisory Council, and a Social Marketing Campaign. 
+
+- Healthy Teens & Young Adults (HTYA)  
+The Healthy Teens and Young Adults' (HTYA) mission is to reduce unintended pregnancies and to improve pregnancy outcomes by providing reproductive health services to young women and men 10 - 24 years of age.  Services also available include: Contraception (birth control) including IUDs and subdermal implant (Nexplanon). This program serves as an indirect sub program to reduce teenage birth rate.
 
 
 ## Business Question
