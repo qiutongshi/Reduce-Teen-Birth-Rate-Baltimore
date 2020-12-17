@@ -1,7 +1,9 @@
 # Reduce-TeenBirthRate-Baltimore-
 ## Introduction
-  Teen pregnancies carry extra risks to both the mother and the baby. Baltimore city has a teen birth rate twice as high as the state of Maryland and three times as high as the national average. This project uses linear regression and cluster analysis to explore the racial and economical factors contributing to teen birth rate in Baltimore, hopefully giving an insight into the services and initiatives to reduce the rate. 
+  Teen pregnancies carry extra risks to both the mother and the baby. Baltimore city has a teen birth rate twice as high as the state of Maryland and three times as high as the national average. This project uses linear regression and cluster analysis to explore the racial and economical factors contributing to teen birth rate in Baltimore, hopefully giving an insight into the services and initiatives to reduce the rate.  
+  
 	While cluster analysis groups teenage birth rate with its distinct corresponding minority residence rate, linear regression also shows that racial factors can contribute greatly to teenage birth rate. After the data analysis, we believe that current initiatives that include education, prevention and follow-up need to be more targeted to counties where Hispanic, AIAN and NHOPI residence rate is higher. 
+	
 	Further studies on how to improve the education, prevention and follow-up cautions on teenage pregnancy are needed to better solve the identified problem at several measures such as campaigns and community resources can be more precisely targeted at high-risk groups.
 
 ## Background
