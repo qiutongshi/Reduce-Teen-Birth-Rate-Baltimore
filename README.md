@@ -83,6 +83,8 @@ This suggests that each of the three different cluster groups anchored as 1, 2, 
 <img width="630" alt="Screen Shot 2020-12-17 at 17 57 32" src="https://user-images.githubusercontent.com/70663111/102553734-57a81180-4091-11eb-8e9b-a99ba262e718.png">
 <img width="704" alt="Screen Shot 2020-12-17 at 17 58 35" src="https://user-images.githubusercontent.com/70663111/102553825-7d351b00-4091-11eb-90b8-daf78404965f.png">
 
+## [Recommendation](https://github.com/qiutongshi/Reduce-TeenBirthRate-Baltimore-/blob/main/Recommendation_Chow_Shi.pdf)
+
 ## Appendix
 ### Initial Findings
 **Mini Project 5.ipynb:** Google Colaboratory notebook used to conduct the analysis [![Google Collaboratory Link](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/11uSwNie4bjdrR64gUIkjoTvihHQT0HKU#scrollTo=6owqeXfvZ0Tt)
