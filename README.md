@@ -89,52 +89,39 @@ This suggests that each of the three different cluster groups anchored as 1, 2, 
 
 
 
+## Recommendation
+The linear regression suggests a significant positive relationship between the factors and teen birth rate. The correlation coefficient calculations indicate that Hispanic, AIAN, and NHOPI ethnicities and low income are positively correlated with the outcome. This means that Baltimore City should focus their initiatives on reducing teen birth rates among minority populations (specifically Hispanic, AIAN, and NHOPI) and low income families. Baltimore City should also focus their efforts in regions that have seen a smaller reduction in teen birth rates, such as the Southeast, North, and West Baltimore regions.
+
+The results of the cluster analysis shows that 81% of the counties in Baltimore do not have serious problems with teenage birth. Among the 81%, 37% (Group 2) have significantly more families above poverty lines and significantly less teenage birth rate. Sharing relatively similar Hispanic/ non Hispanic/Black minority diversity, Group 1 and Group 2 also share relatively close teenage birth rates (lower than average) despite their home under poverty rate has a great difference. On the other hand, Group 3 has a similar home under poverty rate to Group 1, but this does not stop them from having extremely high teenage birth rates. They are also the only group having significantly more Hispanic and non-Hispanic/Black residency. 
+
+This leads to the conclusion that in Baltimore, although the teenage birth rate does not occur with a low home below poverty line rate,  teenage birth rates occur more with racially-determined factors rather than family income level. 
+
+### TPPI
+- Improving Baltimore City’s Teen Pregnancy Prevention Initiative (TPPI) 
+
+We believe that the best way to address the issue of teen births in Baltimore is to build on the already existing initiative. Government employees and the Baltimore community are already familiar with this initiative, so it would not make sense to create a new one. Based on our analysis, we recommend improving TPPI in the following ways:
+
+Targeted initiatives: focus more on minority races (especially Hispanic, AIAN, and NHOPI females) and low income populations
+Offer education for parents of at-risk teens to talk about safe sex, contraception, and pregnancy planning
+Make the Teen Pregnancy Prevention Task Force and Youth Advisory Council more diverse
+Offer sex education and pregnancy information in ethnic minority native languages
+Expand the social marketing campaign
+
+At the moment, TPPI’s strategy addresses the general population and does not really focus on specific at-risk populations aside from foster care youths. Since Hispanic, AIAN, NHOPI, and low income were significant factors in the outcome, with Hispanic race being the highest correlated with teen birth rate, we believe that TPPI should target these at-risk groups. 
+
+As mentioned in the problem statement, a child of a teen parent often experiences teen pregnancies themselves. Since our analysis points to Hispanic, AIAN, NHOPI, and low income populations as significant at-risk groups, we recommend providing education for parents within these groups. This education will teach parents how to communicate with their child(ren) about safe sex, contraception, and pregnancy planning. This way, parents will get accurate, important information on this topic.
+
+[Research](https://govinfo.library.unt.edu/hcquality/meetings/mar12/papch08.htm.) has shown that focusing initiatives on at-risk populations allows for better and more effective results. By targeting the at-risk populations explored in this analysis, Baltimore City would be able to decrease the teen birth rate more quickly and efficiently.
+
+Another way to improve TPPI is to make the task force and council more diverse. This way, the Baltimore community would get better and more accurate support and recommendations. One thing to note about working with and supporting ethnic minorities is that they often have different experiences from other ethnicities and may be more comfortable speaking, reading, and writing in their native language. By diversifying the task force and council, TPPI would be more equipped to handle different scenarios and would be more prepared to offer more services. For example, including Spanish speaking members in the task force could help with reaching out to Hispanic individuals.
+
+Along the same line, we also recommend diversifying TPPI’s social marketing campaign. We would recommend expanding the campaign to target the at-risk groups discussed in this analysis. For example, if AIAN individuals are more likely to join certain FaceBook groups, TPPI could partner with those groups to increase awareness on information about sexual health and teen pregnancy and births. TPPI should also consider expanding their campaign onto ehealth and m-health platforms to increase exposure. 75% of consumers believe that technology is essential to managing health, and 48% of healthcare consumers are using m-health apps. These numbers continue to rise year-by-year. Additionally, TPPI should campaign in multiple languages to increase comprehension and awareness in ethnic minority communities.
+
+From 2010 to 2015, CDC’s federal Office of Adolescent Health evaluated the effectiveness of interventions that focus on at-risk groups like the ones discussed in this analysis. These interventions increased awareness about community factors that are positively linked to teen birth rates and offered culturally and linguistically tailored educational programs. This program is very similar to the changes we recommend for TPPI. Their subsequent study confirmed the effectiveness of their approach.
+
+Our recommendations can be implemented relatively quickly at a low cost. Diversifying the task force, council, and social marketing campaign can be done by implementing more diverse hiring and recruiting practices and providing training to members so they are more equipped to deal with at-risk groups. Training should take up to three months and would cost up to $2,000 per employee. Therefore, we expect to be able to start implementing these initiatives in Q2 of 2021. This is a very cost-effective method of improving the program because of the social and economic implications of reducing teen birth rates.
+To evaluate the efficacy of our recommendation, annual data analysis should be conducted to look at the teen birth rate in each of the at-risk groups. Based on our analysis, we predict that the teen birth rate will decrease, which will benefit Baltimore City’s social and economic standing in the future. This will also help to reduce the generational pattern of teen birth and its consequences in at-risk groups.
 
 
 
 
-
-### California
-- Cluster 1: Multiracial: avg hs grad, high mean SAT, low/avg chronic abs, high mean AP
-  - Asian, White, Multiracial
-- Cluster 2: Hispanic/Latino: avg hs grad, low mean SAT, high chronic ab, low mean SAT
-  - Hispanic/Latino
-- Cluster 3: Black/African American: low hs grad, low mean SAT, avg chronic abs, low mean AP
-  - American Indian/Alaska Native, Black/African American, Native Hawaiian/Pacific Islander
-  
-<img width="888" alt="Screen Shot 2020-10-29 at 12 02 46 AM" src="https://user-images.githubusercontent.com/70858878/97524896-070f1480-197c-11eb-8599-ae313dcb65f7.png">
-
-
-
-
-### Florida
-- Cluster 1: Asian: high hs grad, high mean SAT, low chronic abs, high mean AP
-  - Asian
-- Cluster 2: Hispanic/Latino: avg hs grad, avg mean SAT, high chrnic abs, high/avg mean AP
-  - Hispanic/Latino, White, Multiracial
-- Cluster 3: low hs grad, low mean SAT, low chronic abs, low mean AP 
-  - American Indian/Alaska Native, Black/African American, Native Hawaiian/Pacific Islander
-
-<img width="992" alt="Screen Shot 2020-10-29 at 12 07 26 AM" src="https://user-images.githubusercontent.com/70858878/97524320-bf3bbd80-197a-11eb-90ab-054f1f3c7c60.png">
-
-
-### Illinois
-- Cluster 1: Native Hawaiian/Pacific Islander: low-avg hs grad, avg mean SAT, low chronic abs, avg mean AP
-  - Native Hawaiian/Pacific Islander, American Indian/Alaska Native, Multiracial
-- Cluster 2: Black/African American: low hs grad, low mean SAT, high chronic abs, low mean AP
-  - Black/African American, Hispanic/Latino
-- Cluster 3: Asian: high hs grad, high mean SAT, avg chronic abs, high mean AP
-  - White, Asian
-
-<img width="858" alt="Screen Shot 2020-10-29 at 12 10 52 AM" src="https://user-images.githubusercontent.com/70858878/97524504-3c673280-197b-11eb-82f4-8ff6f7b6c0fd.png">
-
-
-### Pennsylvania
-- Cluster 1: American Indian/Alaska Native: low hs grad, low mean SAT, low chronic abs, low mean AP
-  - American Indian/Alaska Native, Black/African American, Multiracial
-- Cluster 2: White: high hs grad, high mean SAT, avg-high chronic abs, high mean AP
-  - White, Asian, Native Hawaiian/Pacific Islander
-- Cluster 3: Hispanic/Latino: low hs grad, low mean SAT, high chronic abs, avg mean AP
-  - Hispanic/Latino
-  
-<img width="888" alt="Screen Shot 2020-10-29 at 12 02 46 AM" src="https://user-images.githubusercontent.com/70858878/97524559-602a7880-197b-11eb-8211-45e32b8516bc.png">
