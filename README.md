@@ -96,8 +96,7 @@ The results of the cluster analysis shows that 81% of the counties in Baltimore 
 
 This leads to the conclusion that in Baltimore, although the teenage birth rate does not occur with a low home below poverty line rate,  teenage birth rates occur more with racially-determined factors rather than family income level. 
 
-### TPPI
-- Improving Baltimore City’s Teen Pregnancy Prevention Initiative (TPPI) 
+### Improving Baltimore City’s Teen Pregnancy Prevention Initiative (TPPI) 
 
 We believe that the best way to address the issue of teen births in Baltimore is to build on the already existing initiative. Government employees and the Baltimore community are already familiar with this initiative, so it would not make sense to create a new one. Based on our analysis, we recommend improving TPPI in the following ways:
 
@@ -115,13 +114,37 @@ As mentioned in the problem statement, a child of a teen parent often experience
 
 Another way to improve TPPI is to make the task force and council more diverse. This way, the Baltimore community would get better and more accurate support and recommendations. One thing to note about working with and supporting ethnic minorities is that they often have different experiences from other ethnicities and may be more comfortable speaking, reading, and writing in their native language. By diversifying the task force and council, TPPI would be more equipped to handle different scenarios and would be more prepared to offer more services. For example, including Spanish speaking members in the task force could help with reaching out to Hispanic individuals.
 
-Along the same line, we also recommend diversifying TPPI’s social marketing campaign. We would recommend expanding the campaign to target the at-risk groups discussed in this analysis. For example, if AIAN individuals are more likely to join certain FaceBook groups, TPPI could partner with those groups to increase awareness on information about sexual health and teen pregnancy and births. TPPI should also consider expanding their campaign onto ehealth and m-health platforms to increase exposure. 75% of consumers believe that technology is essential to managing health, and 48% of healthcare consumers are using m-health apps. These numbers continue to rise year-by-year. Additionally, TPPI should campaign in multiple languages to increase comprehension and awareness in ethnic minority communities.
+Along the same line, we also recommend diversifying TPPI’s social marketing campaign. We would recommend expanding the campaign to target the at-risk groups discussed in this analysis. For example, if AIAN individuals are more likely to join certain FaceBook groups, TPPI could partner with those groups to increase awareness on information about sexual health and teen pregnancy and births. TPPI should also consider expanding their campaign onto ehealth and m-health platforms to increase exposure. 75% of consumers believe that technology is essential to managing health, and [48%](https://liquid-state.com/mhealth-apps-market-snapshot/.) of healthcare consumers are using m-health apps. These numbers continue to rise year-by-year. Additionally, TPPI should campaign in multiple languages to increase comprehension and awareness in ethnic minority communities.
 
-From 2010 to 2015, CDC’s federal Office of Adolescent Health evaluated the effectiveness of interventions that focus on at-risk groups like the ones discussed in this analysis. These interventions increased awareness about community factors that are positively linked to teen birth rates and offered culturally and linguistically tailored educational programs. This program is very similar to the changes we recommend for TPPI. Their subsequent study confirmed the effectiveness of their approach.
+From 2010 to 2015, CDC’s federal Office of Adolescent Health evaluated the effectiveness of interventions that focus on at-risk groups like the ones discussed in this analysis. [These interventions](https://www.cdc.gov/teenpregnancy/practitioner-tools-resources/diverse-communities.html.) increased awareness about community factors that are positively linked to teen birth rates and offered culturally and linguistically tailored educational programs. This program is very similar to the changes we recommend for TPPI. [Their subsequent study](https://pubmed.ncbi.nlm.nih.gov/27913658/.) confirmed the effectiveness of their approach.
 
+### Improving Healthy Teens & Young Adults Clinic Accessibility (HTYA) 
+After doing further research into this program in, we believe that it could be improved with two strategies: increasing campaigns and decreasing barrier to utilize. This program is open to the general public, but it could also be more well-informed to at-risk groups with brochures or [instagram feeds](https://www.classy.org/blog/instagram-tips-modern-nonprofit/.). Online and offline in the community campaigns can help more teens know about the help they could get. 
+
+The program’s [pricing and insurance policy](https://health.baltimorecity.gov/node/223.) can also be clearer and more open with a quote calculator, which could reduce the economic barriers for at-risk groups seeking help. It is also a good idea to add finder of a Healthy Teens & Young Adults clinic system that allows helo seeker to find the neareast clinic, make appointments, and read experience from other help seekers. This could not only decrease their pressure of being in a clinic to talk about teen pregnancy, but also find a community of people sharing the same experience that could possibly support them.
+
+### Initiatives
 Our recommendations can be implemented relatively quickly at a low cost. Diversifying the task force, council, and social marketing campaign can be done by implementing more diverse hiring and recruiting practices and providing training to members so they are more equipped to deal with at-risk groups. Training should take up to three months and would cost up to $2,000 per employee. Therefore, we expect to be able to start implementing these initiatives in Q2 of 2021. This is a very cost-effective method of improving the program because of the social and economic implications of reducing teen birth rates.
 To evaluate the efficacy of our recommendation, annual data analysis should be conducted to look at the teen birth rate in each of the at-risk groups. Based on our analysis, we predict that the teen birth rate will decrease, which will benefit Baltimore City’s social and economic standing in the future. This will also help to reduce the generational pattern of teen birth and its consequences in at-risk groups.
 
+### Further Research
+About 48.5% of the data can be predicted with the linear regression model, which means that about 51.5% of the data can be predicted with other factors not included in this analysis. Further analysis could consider looking at whether the teen is living in a single or dual parent household, level of communication between the teen and parents/guardians, amount of available and accurate sexual and reproductive health information in the community, average age of puberty, and average age of first relationship or sexual encounter.
 
+
+## Appendix
+### Initial Findings
+Step-by-step creation of the visualization: Google Collaboratory
+
+### Step-by-Step Excel Analysis
+- Linear Regression 
+1. Dataset was downloaded from Google Collaboratory (linked above)
+2. Regression function of the Data Analysis tool was used to summarize the output of the simple linear regression with outcome (y input)  being “teenbir17” and factors (x input) being “hhpov17”, “ppac17”, and “phisp17”
+3. Correlation function of the Data Analysis tool was used to calculate correlation coefficients between the outcome and each of the factors
+
+- Cluster Analysis
+1. Dataset cleaned and downloaded from Google Collaboratory
+2. Cluster analysis from Solver tool was used to group data into three clusters based on “teenbir17”, “hhpov17”, “ppac17”, and “phisp17”
+3. Sort data by anchor number to find counties that belonged to each group
+4. Use “COUNTIF” to count the numbers of each group and graph into a pie graph
 
 
